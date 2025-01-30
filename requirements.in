@@ -1,0 +1,21 @@
+# This is how we handle Python dependencies now! Don't forget!
+
+# If you've once again forgotten how to start the virtual environment, just run:
+# source .venv/bin/activate
+
+# INSTRUCTIONS:
+# Add your new requirements here, and then run:
+# pip-compile requirements.in --output-file requirements.txt
+# This will automatically update the requirements.txt file.
+# Everything in requirements.txt should be compatible with one another.
+# After running pip-compile, review the changes and then run:
+# pip install -r requirements.txt
+
+beautifulsoup4==4.12.3
+black==24.10.0
+flake8==7.1.1
+jinja2==3.1.5
+markdown==3.7
+pyYAML==6.0.2
+typogrify==2.1.0
+watchdog==6.0.0

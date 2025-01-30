@@ -1,1 +1,18 @@
+# MacOS
 .DS_Store
+
+# Python
+.venv/
+*.pyc
+*.pyo
+__pycache__/
+
+# Node
+node_modules/
+package-lock.json
+
+# This file is only needed for local development debugging
+content_data.json
+
+# VS Code
+.vscode/
